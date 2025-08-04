@@ -1,0 +1,15 @@
+export const addToCartLocators = {
+  homePageLogo: "//img[@alt='Website for automation practice']",
+  productsBtn: "//a[@href='/products']",
+  firstProduct: "//div//div//div//div[2]//div[1]//div[1]//div[2]//div[1]//a[1]",
+  secondProduct: "//div[3]//div[1]//div[1]//div[2]//div[1]//a[1]",
+  addToCartBtn: ".product-overlay a:has-text('Add to cart')",
+  continueShoppingBtn: "//button[normalize-space()='Continue Shopping']",
+  viewCartBtn: "//u[normalize-space()='View Cart']",
+  price500: "//p[normalize-space()='Rs. 500']",
+  price400: "//p[normalize-space()='Rs. 400']",
+  firstProductQty: "//tbody/tr[1]/td[4]/button[1]",
+  secondProductQty: "//tbody/tr[2]/td[4]/button[1]",
+  totalPrice500: "//tr[1]//td[6]//p",
+  totalPrice400: "//tr[2]//td[6]//p",
+};
